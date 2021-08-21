@@ -1,0 +1,40 @@
+## [AWS Practice](../readme.md) - 03.
+
+## ch06. 가상화와 EC2
+
+1. Hypervisor type1(HVM, PVM), type2
+2. AMI
+3. Instance
+
+## ch07. 가상 서버 시작
+
+1. EC2 Instance 생성
+2. 가상 서버 시작
+
+## ch08. 가상 서버 운영
+
+1. ssh. 가상 서버 접속
+
+```bash
+$ ssh -i mykey.pem ec2-user@[public ip]
+```
+
+2. 가상 서버 모니터링
+3. 가상 서버 상태 변경
+4. 가상 서버 크기 변경
+
+## ch09. 네트워크 설정
+
+1. Security Group 방화벽 : 아파치 웹서버 운영
+
+```bash
+    # yum install -y http
+    # systemctl enable httpd
+    # service httpd [start|stop|restart]
+```
+
+2. Elastic IP(고정 IP)
+
+3.
+
+4.
