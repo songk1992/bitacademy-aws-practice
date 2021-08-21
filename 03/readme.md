@@ -52,3 +52,31 @@ $ ssh -i mykey.pem ec2-user@[public ip]
 
 작업 -> 탄력적 IP 주소 연결 -> 네트워크 인터페이스
 ```
+
+## 실습(네트워크에 http 파일 올려서 보기)
+
+```
+cd /var/www/html
+pwd
+ls
+vi index.html
+
+mkdir mysite01
+cd mysite01
+vi index.html
+// 여기다가 html 파일 작성
+:wq
+cat index.html
+
+cd /etc/httpd/conf.d
+vi mysite01.conf
+<VirtualHost 172.31.12.90:80>
+    DocumentRoot /var/www/html/mysite01
+</VirtualHost>
+:wq
+
+
+service httpd stop
+ps -ef | grep htpd
+service httpd start
+```
