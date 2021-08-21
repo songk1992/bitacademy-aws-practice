@@ -21,7 +21,15 @@
 <br />
 
 ![footer](./src/img/ad01.jpg)
-[비트 AWS교육 광고 / 출처 비트교육센터 / 용도 학습](https://www.bitcamp.co.kr/)
+
+<br />
+
+[비트 AWS교육 팜플렛 / 출처 비트교육센터 / 용도 학습](https://www.bitcamp.co.kr/)
+
+<br />
 
 ![footer](./src/img/ad02.jpg)
-[비트 AWS교육 광고 / 출처 비트교육센터 / 용도 학습](https://www.bitcamp.co.kr/)
+
+<br />
+
+[비트 AWS교육 팜플렛 / 출처 비트교육센터 / 용도 학습](https://www.bitcamp.co.kr/)
