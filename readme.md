@@ -9,6 +9,9 @@
 <br />
 <br />
 
+![header](./src/img/aws-diagram.png)
+
+
 ## [01. AWS 개요](./01/readme.md)
 
 ## [02. virtual infra 구축](./02/readme.md)
